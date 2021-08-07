@@ -1,4 +1,4 @@
-package cn.melon.commons.lang;
+package cn.melonkid.commons.lang;
 
 import java.util.HashMap;
 import java.util.Map;

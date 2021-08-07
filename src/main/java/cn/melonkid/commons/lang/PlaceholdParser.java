@@ -1,4 +1,4 @@
-package cn.melon.commons.lang;
+package cn.melonkid.commons.lang;
 
 import java.util.Map;
 import org.apache.commons.lang3.StringUtils;
