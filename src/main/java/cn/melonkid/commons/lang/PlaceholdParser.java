@@ -27,9 +27,9 @@ public class PlaceholdParser {
      * 约定： 1. 占位符做括号和右括号之间只能是英文字母，不能包含其他符号
      * 2. 没有找到占位符参数的，不进行替换
      *
-     * @param sourceStr
-     * @param params
-     * @return
+     * @param sourceStr 原始字符串
+     * @param params    参数集合
+     * @return  替换占位符后的字符串
      */
     public static String parseAndReplaceByName(String sourceStr, Map<String, String> params) {
         if (StringUtils.isBlank(sourceStr)) {
@@ -109,9 +109,9 @@ public class PlaceholdParser {
      * 解析占位符 并将占位符替换为传入的参数
      * 如 我有三样东西，分别是：{}，{}，{}
      *
-     * @param sourceStr
-     * @param params
-     * @return
+     * @param sourceStr 原始字符串
+     * @param params    参数列表
+     * @return  替换占位符之后的字符串
      */
     public static String parse(String sourceStr, String... params) {
         if (StringUtils.isBlank(sourceStr)) {
