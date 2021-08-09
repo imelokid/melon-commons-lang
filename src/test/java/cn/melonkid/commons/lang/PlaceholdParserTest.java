@@ -1,5 +1,6 @@
 package cn.melonkid.commons.lang;
 
+import cn.melonkid.commons.lang.parser.PlaceholdParser;
 import java.util.HashMap;
 import java.util.Map;
 import org.junit.Test;
